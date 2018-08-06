@@ -15,6 +15,12 @@ def ninjaColor(ninja_color):
         return render_template('leo.html')
     elif ninja_color == 'orange':
         return render_template('mich.html')
+    elif ninja_color == 'red':
+        return render_template('raph.html')
+    elif ninja_color == 'purple':
+        return render_template('don.html')
+    else:
+        return render_template('not.html')
 
 
 app.run(debug=True)
